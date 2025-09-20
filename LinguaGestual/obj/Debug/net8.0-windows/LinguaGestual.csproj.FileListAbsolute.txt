@@ -1,0 +1,17 @@
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\bin\Debug\net8.0-windows\LinguaGestual.exe
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\bin\Debug\net8.0-windows\LinguaGestual.deps.json
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\bin\Debug\net8.0-windows\LinguaGestual.runtimeconfig.json
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\bin\Debug\net8.0-windows\LinguaGestual.dll
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\bin\Debug\net8.0-windows\LinguaGestual.pdb
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.Form1.resources
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.Properties.Resources.resources
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.csproj.GenerateResource.cache
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.AssemblyInfoInputs.cache
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.AssemblyInfo.cs
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.csproj.CoreCompileInputs.cache
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.dll
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\refint\LinguaGestual.dll
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.pdb
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\LinguaGestual.genruntimeconfig.cache
+C:\Users\tatia\Documents\Escola\Side Projects\LinguaGestual\LinguaGestual\obj\Debug\net8.0-windows\ref\LinguaGestual.dll
