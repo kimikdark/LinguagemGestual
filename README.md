@@ -1,21 +1,21 @@
 # Tradutor de Língua Gestual
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto é uma aplicação desktop desenvolvida em C# com **Windows Forms** que atua como um tradutor visual para a Língua Gestual Portuguesa. A aplicação permite que os utilizadores escrevam uma frase numa caixa de texto, e ao clicar num botão, a aplicação "soletra" a frase, exibindo as letras uma a uma através de imagens na língua gestual. O objetivo é criar uma ferramenta simples e acessível para a aprendizagem e demonstração do alfabeto gestual.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * **Tradução em tempo real**: Converte texto para imagens da língua gestual, exibindo cada letra de forma sequencial.
 * **Gestão de tempo**: Utiliza um `Timer` para controlar o tempo de exibição de cada letra, permitindo um ritmo de leitura ajustável.
 * **Tratamento de caracteres**: O programa ignora caracteres não alfabéticos e processa acentos, convertendo-os para as suas letras base (por exemplo, "á" para "a").
 * **Interface intuitiva**: Uma interface simples e limpa para fácil utilização.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **C#**: Linguagem de programação principal.
 * **Windows Forms**: Framework para a criação da interface gráfica.
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1.  **Pré-requisitos**:
     * Visual Studio (versão 2019 ou superior).
@@ -34,6 +34,6 @@ Este projeto é uma aplicação desktop desenvolvida em C# com **Windows Forms**
     * Certifique-se de que a plataforma de solução está definida para `Debug` ou `Release`.
     * Pressione **F5** ou clique no botão `Start` para executar a aplicação.
 
-## 🖼️ Imagens dos Recursos
+## Imagens dos Recursos
 
 Todas as imagens do alfabeto em Língua Gestual (A.JPG a Z.JPG) foram importadas como recursos do projeto para garantir que a aplicação funcione em qualquer ambiente, sem a necessidade de caminhos de ficheiro externos.
