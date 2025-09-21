@@ -31,7 +31,7 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pbVisualizador = new PictureBox();
-            txtFrase = new TextBox();
+            txtMensagem = new TextBox();
             btnConverter = new Button();
             timer1 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pbVisualizador).BeginInit();
@@ -39,28 +39,35 @@
             // 
             // pbVisualizador
             // 
-            pbVisualizador.Location = new Point(167, 143);
+            pbVisualizador.Location = new Point(68, 75);
             pbVisualizador.Name = "pbVisualizador";
-            pbVisualizador.Size = new Size(346, 488);
+            pbVisualizador.Size = new Size(265, 383);
+            pbVisualizador.SizeMode = PictureBoxSizeMode.StretchImage;
             pbVisualizador.TabIndex = 0;
             pbVisualizador.TabStop = false;
             // 
-            // txtFrase
+            // txtMensagem
             // 
-            txtFrase.Location = new Point(591, 258);
-            txtFrase.Multiline = true;
-            txtFrase.Name = "txtFrase";
-            txtFrase.Size = new Size(346, 84);
-            txtFrase.TabIndex = 1;
+            txtMensagem.Location = new Point(365, 192);
+            txtMensagem.Multiline = true;
+            txtMensagem.Name = "txtMensagem";
+            txtMensagem.Size = new Size(346, 84);
+            txtMensagem.TabIndex = 1;
+            txtMensagem.Text = "Digite a mensagem a traduzir!";
             // 
             // btnConverter
             // 
-            btnConverter.Location = new Point(591, 364);
+            btnConverter.Location = new Point(365, 306);
             btnConverter.Name = "btnConverter";
             btnConverter.Size = new Size(346, 29);
             btnConverter.TabIndex = 2;
             btnConverter.Text = "Converter Mensagem";
             btnConverter.UseVisualStyleBackColor = true;
+            btnConverter.Click += btnConverter_Click;
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
             // 
             // Form1
             // 
@@ -68,13 +75,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1902, 1033);
+            ClientSize = new Size(782, 553);
             Controls.Add(btnConverter);
-            Controls.Add(txtFrase);
+            Controls.Add(txtMensagem);
             Controls.Add(pbVisualizador);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Linguagem Gestual";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pbVisualizador).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -83,7 +93,7 @@
         #endregion
 
         private PictureBox pbVisualizador;
-        private TextBox txtFrase;
+        private TextBox txtMensagem;
         private Button btnConverter;
         private System.Windows.Forms.Timer timer1;
     }
